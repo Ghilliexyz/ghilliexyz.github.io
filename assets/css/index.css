@@ -15,8 +15,8 @@ body {
 }
 
 .header {
+    margin: 0;
     text-align: center;
-    border: 3px solid #191919;
     width: 100%;
     /* parallax effect */
     background-image: url("/assets/images/Branding/Ratchy_Background.png");
