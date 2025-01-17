@@ -121,6 +121,7 @@ body {
 }
 
 .usermessagebox-label {
+    top: 710px;
     display: flex;
     align-items: center;
     box-sizing: border-box;

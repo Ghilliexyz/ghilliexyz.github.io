@@ -61,6 +61,9 @@ body {
 }
 
 .aboutcards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #191919;
     align-items: center;
     margin: auto;
