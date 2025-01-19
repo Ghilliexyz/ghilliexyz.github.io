@@ -1,0 +1,75 @@
+.inner-doc h1,
+.inner-doc h2,
+.inner-doc p,
+.inner-doc li {
+    text-wrap: balance;
+    font-size: 25px;
+}
+
+.inner-doc a.doc-link::before {
+    -webkit-text-fill-color: #e1e1e1;
+    opacity: 0.2;
+    text-decoration: none;
+    color: #e1e1e1;
+    content: "#";
+    position: absolute;
+    margin-left: -1.75rem;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.inner-doc [data-has-doc-link="true"]:hover a.doc-link::before {
+    opacity: 0.75;
+}
+
+.inner-doc .doc-section {
+    margin-left: 2rem;
+}
+
+.inner-doc h1 {
+    color: #e1e1e1;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 50px;
+    white-space: nowrap;
+    font-size: 50px;
+}
+
+.inner-doc h2 {
+    display: inline-block;
+    scroll-margin-top: 92px;
+    padding-top: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(-125deg, #f64040, #f64089 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inner-doc p {
+    margin-top: 0;
+    padding-top: 0px;
+    color: #c2c2c2;
+    font-size: 20px;
+}
+
+.inner-doc ul li {
+    margin-top: 15px;
+    color: #c2c2c2;
+    list-style: circle;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    .inner-doc {
+        width: 50vw;
+        min-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .inner-doc a.doc-link::before {
+        position: initial;
+        margin-left: 0;
+        margin-right: 0.5rem;
+    }
+}

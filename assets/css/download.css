@@ -1,0 +1,56 @@
+.downloadInfo {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: #202020;
+    width: 100%;
+    min-height: 600px;
+}
+
+.downloadInfo h1 {
+    color: #e1e1e1;
+    margin: 0px;
+    margin-top: 100px;
+    padding: 0px;
+    text-align: center;
+    font-size: 75px;
+}
+
+.downloadInfo a {
+    text-decoration: none;
+    place-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.downloadInfoHolder {
+    display: flex;
+    align-items: center;
+}
+
+.downloadInfoBtns {
+    background: linear-gradient(-125deg, #f64040, #f64089 100%);
+    display: flex;
+    /* Use flexbox */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    transition: ease-in-out 0.3s;
+}
+
+.downloadInfoBtns:hover {
+    scale: 105%;
+    /* box-shadow: 0px 0px 15px 0px #f64089; */
+}
+
+.downloadInfoBtns p {
+    margin: 0;
+    color: #fff;
+    font-size: 25px;
+}

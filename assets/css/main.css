@@ -1,0 +1,81 @@
+html,
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #191919 no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    /* Causes a second scrollbar to appear lol */
+    font-family: JetBrains Mono, monospace;
+}
+
+::selection {
+    background: #F64040;
+    color: #191919;
+}
+
+.main {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    background-color: #191919;
+    height: 300px;
+}
+
+.footerinfo {
+    margin-left: 100px;
+    padding: 15px;
+    max-width: fit-content;
+    display: inline-grid;
+}
+
+.footerinfo h2 {
+    color: #e1e1e1;
+}
+
+.footerinfo a {
+    background: -webkit-linear-gradient(-125deg, #a0a0a0, #a0a0a0 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+}
+
+.footerinfo a:hover {
+    scale: 105%;
+    background: -webkit-linear-gradient(-125deg, #f64040, #f64089 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* #region Scrollbar CSS */
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #F64040 #191919;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #191919;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #F64040;
+    border-radius: 0px;
+    border: 0px none #191919;
+}

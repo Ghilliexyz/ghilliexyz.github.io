@@ -1,0 +1,100 @@
+.logo {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+}
+
+.parallax {
+    padding: 15px;
+    /* parallax effect */
+    background-image: url("/assets/imgs/Ratchy_Background.png");
+
+    min-height: 750px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.parallaxInfo {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.parallaxInfo img {
+    margin-top: 125px;
+    width: 300px;
+    height: 300px;
+}
+
+.parallaxInfo a {
+    margin-top: 50px;
+    text-decoration: none;
+    place-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.parallaxInfo h1 {
+    margin: 0px;
+    padding: 0px;
+    color: #e1e1e1;
+    font-size: 75px;
+}
+
+.parallaxInfoBtn {
+    background: linear-gradient(-125deg, #f64040, #f64089 100%);
+    display: flex;
+    /* Use flexbox */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    transition: ease-in-out 0.3s;
+}
+
+.parallaxInfoBtn:hover {
+    scale: 105%;
+    box-shadow: 0px 0px 15px 0px #f64089;
+}
+
+.parallaxInfoBtn p {
+    margin: 0;
+    color: #fff;
+    font-size: 25px;
+}
+
+.about {
+    background-color: #202020;
+    scroll-margin-top: 92px;
+    padding-bottom: 50px;
+}
+
+.about h1 {
+    color: #e1e1e1;
+    text-align: center;
+    font-size: 60px;
+    margin: 0px;
+    padding: 25px;
+}
+
+.about p {
+    color: #e1e1e1;
+    text-align: center;
+    margin: 0px;
+    padding: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
